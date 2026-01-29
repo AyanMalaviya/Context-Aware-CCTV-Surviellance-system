@@ -20,7 +20,7 @@ Download from [python.org](https://www.python.org/downloads/) - **check "Add to 
 
 ### 2. Clone this repository
 ```powershell
-git clone https://github.com/YOUR_USERNAME/cctv-surveillance.git
+git clone https://github.com/AyanMalaviya/cctv-surveillance.git
 cd cctv-surveillance
 
 ### 3. Create virtual environment
