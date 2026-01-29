@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# Model files (too large for GitHub)
+*.safetensors
+*.bin
+*.gguf
+hf_models/
+A:\hf_models/
+
+# Logs and outputs
+outputs/
+*.log
+*.jsonl
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
