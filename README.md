@@ -36,9 +36,9 @@ pip install -r requirements.txt
 $env:HF_HUB_DISABLE_XET="1"
 pip install -U "huggingface_hub[cli]"
 hf auth login
-hf download Qwen/Qwen2-VL-2B-Instruct --local-dir "hf_models\Qwen2-VL-2B-Instruct"
+hf download Qwen/Qwen3-VL-2B-Instruct --local-dir "hf_models\Qwen3-VL-2B-Instruct"
 
 ### 6. configuration
 VIDEO_PATH = r"path\to\your\video.mp4"        # or RTSP URL
-MODEL_ID = r"hf_models\Qwen2-VL-2B-Instruct"
+MODEL_ID = r"hf_models\Qwen3-VL-2B-Instruct"
 CLIP_DURATION_SEC = 3.0                       # analyze every N seconds
